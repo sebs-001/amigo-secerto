@@ -18,9 +18,16 @@ function agregarAmigo(){
         arrayNombres.push(nombre);
         console.log(arrayNombres);
     }
+    limpiarCaja();
     
 }
 
 function sortearAmigo(){
+    
+}
 
+//Se encarga de borrar o "limpiar "los datos que estan en la caja
+function limpiarCaja(){
+    let valorCaja = document.querySelector("#amigo");
+    valorCaja.value = "";
 }
