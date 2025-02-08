@@ -28,7 +28,7 @@ function agregarAmigo(){
 //Se encarga de seleccionar un indice aleatorio del array en el cual esta almacenado un nombre
 function sortearAmigo(){
 
-    //Si la lista esta vacia
+    //Si la lista esta vacia.
     if (!arrayNombres || arrayNombres.length === 0) {
 
         alert("No hay nombres en la lista")
