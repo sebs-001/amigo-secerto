@@ -4,12 +4,12 @@ let arrayNombres = [];
 function agregarAmigo(){
     let nombre = document.getElementById("amigo").value;
     
-    //Si no se ingresa ningun dato
+    //Si no se ingresa ningun dato en la caja
     if (!nombre || nombre.trim() === "") {
 
         alert("Debes ingresar un dato");
     
-    //Si la informacion ingresada es un entero
+    //Si la informacion ingresada en la caja es un entero
     } else if(!isNaN(nombre)){
 
         alert("Los datos ingresados no pueden ser valores numericos");
